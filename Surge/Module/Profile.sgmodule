@@ -110,6 +110,9 @@ hide-udp=0
 # ------
 keyword-filter-type = false
 
+[Rule]
+DOMAIN-SUFFIX, gebi1.com, DIRECT
+
 [Host]
 neatdns.ustclug.org = server:202.141.178.13
 *.1688.com = server:223.5.5.5
