@@ -114,6 +114,7 @@ keyword-filter-type = false
 DOMAIN-SUFFIX, gebi1.com, DIRECT
 DOMAIN-SUFFIX, jd.com, DIRECT
 DOMAIN-SUFFIX, jd.hk, DIRECT
+PROCESS-NAME,*XMind*,REJECT
 
 [Host]
 neatdns.ustclug.org = server:202.141.178.13
