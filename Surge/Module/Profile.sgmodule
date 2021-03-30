@@ -63,7 +63,7 @@ dns-server = system, 119.29.29.29, 119.28.28.28, 223.5.5.5, 223.6.6.6, 180.76.76
 
 # ---(高级)---
 # 日志级别
-loglevel = info
+loglevel = notify
 
 # 当遇到 REJECT 策略时返回错误页
 show-error-page-for-reject = true
@@ -115,6 +115,7 @@ DOMAIN-SUFFIX, gebi1.com, DIRECT
 DOMAIN-SUFFIX, jd.com, DIRECT
 DOMAIN-SUFFIX, jd.hk, DIRECT
 PROCESS-NAME,*XMind*,REJECT
+PROCESS-NAME,/Applications/Adobe Acrobat DC/Adobe Acrobat.app,REJECT
 
 [Host]
 neatdns.ustclug.org = server:202.141.178.13
